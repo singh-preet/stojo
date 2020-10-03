@@ -4,8 +4,8 @@ import 'package:stojo/home.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-    statusBarColor: Colors.white,
-    statusBarIconBrightness: Brightness.light
+    statusBarColor: Colors.transparent,
+    statusBarIconBrightness: Brightness.dark
   ));
   runApp(MyApp());
 }
